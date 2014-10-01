@@ -92,8 +92,7 @@
       <!-- Recent toegevoegde uploads -->
       
         <div class="col-md-4">
-          <h2>Artikel overzicht</h2>
-          <p>Gebruikers voegden deze artikels toe.</p>
+          <h2>Overzicht</h2>
           <?php
         // Main class 
         class index {
