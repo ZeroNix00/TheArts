@@ -1,0 +1,164 @@
+
+
+/* ==========================================================================
+   Custom bootstrap stylesheet.
+    v0.0.1
+   ========================================================================== */
+@font-face {
+    font-family: OpenSansEB;
+    src: url('../fonts/OpenSans-ExtraBold.woff'); // Open Sans Extra Bold
+}
+@font-face {
+     font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+
+/* Modify form group to display as block */
+
+
+.navbar .button {
+    width: 170px;
+    margin: 3px;
+    text-align: center;
+}
+
+.navbar .inactive {
+    border-right: 1px #ddd solid;
+}
+
+.navbar .active {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+.navbar .button:hover {
+    background: #ddd;
+}
+
+/* Container */
+.avatar-container {
+    position: relative; /* Inherit from previous element navbar */
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+
+/* User avatar */
+.avatar-container .avatar img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Custom icon for the header */
+.avatar-container .glyphicon-user {
+    padding: 3px;
+    font-size: 2.3em;
+}
+
+.navbar-form .loginmenu {
+    width: 400px;
+    float: right;
+}
+
+
+.thumbnail {
+    padding: 6px;
+    clear: both;
+}
+
+.thumbnail img {
+    height: 250px;
+    width: 250px;
+    clear: both;
+}
+
+.thumbnail p, h3 {
+    position: relative;
+}
+
+.precontent {
+    height: 75px;
+    padding-bottom: 5px;
+}
+
+.precontent p {
+    font-family: 'Arial', sans-serif;
+    font-size: 8px;
+    padding: 2px;
+}
+
+.content1 {
+    width: 650px;
+    padding: 5px;
+}
+
+/* Artist block */
+.content1 .art-information {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-style: oblique;
+}
+
+/* Artist art publication date block */
+.content1 .timespan {
+    position: relative;
+    font-weight: 300;
+    font-size: 10px;
+} 
+
+.content1 .description {
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    display: block;
+    font-style: italic;
+    width: 95%;
+}
+
+
+.content1 .contentImage {
+    float: right;
+    width: 200px;
+    height: 250px;
+}
+
+.myInput {
+    width: 350px;
+}
+
+.myComment {
+    border-radius: 2px;
+    background: #02B2FF;
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.myComment p {
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
